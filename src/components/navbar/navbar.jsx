@@ -26,9 +26,9 @@ export default function ButtonAppBar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar color="transparent" position="static">
                 <Toolbar>
-                    <IconButton edge="start" className={s.nav} color="" aria-label="menu">
+                    <IconButton edge="start" className={s.nav} color="transparent" aria-label="menu">
                         <MenuIcon/>
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>

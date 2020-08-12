@@ -2,6 +2,8 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import ContainedButtons from "../button/button";
 import Paper from "@material-ui/core/Paper";
+import s from"./about.module.css"
+// import ImageGridList from "./images/images";
 
 
 
@@ -9,7 +11,7 @@ import Paper from "@material-ui/core/Paper";
 const About=()=>{
     return(
 
-        <div>
+        <div className={s.topic}>
 <Paper  elevation={3} >
 
     <Typography paragraph>
@@ -29,6 +31,10 @@ const About=()=>{
 
             <ContainedButtons href={"galery"}  name={"посмотреть подробнее"}/>
             <ContainedButtons href={"basket"}  name={"купить"} />
+
+
+{/*<ImageGridList/>*/}
+
         </div>
 
 

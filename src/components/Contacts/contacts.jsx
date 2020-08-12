@@ -1,5 +1,6 @@
 import React from "react";
-
+ import MailIcon from '@material-ui/icons/Mail';
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 
 
 
@@ -7,8 +8,10 @@ import React from "react";
 const Contacts=()=>{
     return (
 
-        <div>
-          Contacts
+        <div> <br/>  <br/>
+       <MailIcon/>   ya.yarochkin@yandex.ru
+            <br/>  <br/>  <br/>
+            <PhoneAndroidIcon/> 8 903 099 20 74
         </div>
 
 
